@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300929E619EE62E90002FAE9 /* handExample@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 300929E519EE62E90002FAE9 /* handExample@2x.png */; };
 		30B3F32A19C8082500BE2932 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B3F32919C8082500BE2932 /* Foundation.framework */; };
 		30B3F32C19C8082500BE2932 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B3F32B19C8082500BE2932 /* CoreGraphics.framework */; };
 		30B3F32E19C8082500BE2932 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B3F32D19C8082500BE2932 /* UIKit.framework */; };
@@ -19,6 +20,16 @@
 		30B3F34519C8082500BE2932 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B3F32D19C8082500BE2932 /* UIKit.framework */; };
 		30B3F34D19C8082500BE2932 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30B3F34B19C8082500BE2932 /* InfoPlist.strings */; };
 		30B3F34F19C8082500BE2932 /* drawGraphicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B3F34E19C8082500BE2932 /* drawGraphicsTests.m */; };
+		30B3F35E19C8091500BE2932 /* ACEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B3F35B19C8091500BE2932 /* ACEViewController.m */; };
+		30B3F35F19C8091500BE2932 /* ACEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30B3F35C19C8091500BE2932 /* ACEViewController.xib */; };
+		30B3F36419C8092200BE2932 /* ACEDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B3F36119C8092200BE2932 /* ACEDrawingTools.m */; };
+		30B3F36519C8092200BE2932 /* ACEDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B3F36319C8092200BE2932 /* ACEDrawingView.m */; };
+		30B3F36D19C82ABC00BE2932 /* 六边形.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B3F36819C82ABC00BE2932 /* 六边形.png */; };
+		30B3F36E19C82ABC00BE2932 /* 三角形.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B3F36919C82ABC00BE2932 /* 三角形.png */; };
+		30B3F36F19C82ABC00BE2932 /* 圆形.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B3F36A19C82ABC00BE2932 /* 圆形.png */; };
+		30B3F37019C82ABC00BE2932 /* 长方形.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B3F36B19C82ABC00BE2932 /* 长方形.png */; };
+		30B3F37119C82ABC00BE2932 /* 正方形.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B3F36C19C82ABC00BE2932 /* 正方形.png */; };
+		30B3F37419C82DCE00BE2932 /* WMJCheckOverGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B3F37319C82DCE00BE2932 /* WMJCheckOverGraphics.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		300929E519EE62E90002FAE9 /* handExample@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "handExample@2x.png"; sourceTree = "<group>"; };
 		30B3F32619C8082500BE2932 /* drawGraphics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drawGraphics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B3F32919C8082500BE2932 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		30B3F32B19C8082500BE2932 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +60,20 @@
 		30B3F34A19C8082500BE2932 /* drawGraphicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "drawGraphicsTests-Info.plist"; sourceTree = "<group>"; };
 		30B3F34C19C8082500BE2932 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		30B3F34E19C8082500BE2932 /* drawGraphicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drawGraphicsTests.m; sourceTree = "<group>"; };
+		30B3F35A19C8091500BE2932 /* ACEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEViewController.h; sourceTree = "<group>"; };
+		30B3F35B19C8091500BE2932 /* ACEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEViewController.m; sourceTree = "<group>"; };
+		30B3F35C19C8091500BE2932 /* ACEViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACEViewController.xib; sourceTree = "<group>"; };
+		30B3F36019C8092200BE2932 /* ACEDrawingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEDrawingTools.h; sourceTree = "<group>"; };
+		30B3F36119C8092200BE2932 /* ACEDrawingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEDrawingTools.m; sourceTree = "<group>"; };
+		30B3F36219C8092200BE2932 /* ACEDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEDrawingView.h; sourceTree = "<group>"; };
+		30B3F36319C8092200BE2932 /* ACEDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEDrawingView.m; sourceTree = "<group>"; };
+		30B3F36819C82ABC00BE2932 /* 六边形.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "六边形.png"; sourceTree = "<group>"; };
+		30B3F36919C82ABC00BE2932 /* 三角形.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "三角形.png"; sourceTree = "<group>"; };
+		30B3F36A19C82ABC00BE2932 /* 圆形.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "圆形.png"; sourceTree = "<group>"; };
+		30B3F36B19C82ABC00BE2932 /* 长方形.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "长方形.png"; sourceTree = "<group>"; };
+		30B3F36C19C82ABC00BE2932 /* 正方形.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "正方形.png"; sourceTree = "<group>"; };
+		30B3F37219C82DCE00BE2932 /* WMJCheckOverGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMJCheckOverGraphics.h; sourceTree = "<group>"; };
+		30B3F37319C82DCE00BE2932 /* WMJCheckOverGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMJCheckOverGraphics.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +135,13 @@
 			children = (
 				30B3F33819C8082500BE2932 /* WMJAppDelegate.h */,
 				30B3F33919C8082500BE2932 /* WMJAppDelegate.m */,
+				30B3F36619C8092E00BE2932 /* ACEDrawingView */,
+				30B3F35A19C8091500BE2932 /* ACEViewController.h */,
+				30B3F35B19C8091500BE2932 /* ACEViewController.m */,
+				30B3F35C19C8091500BE2932 /* ACEViewController.xib */,
+				30B3F37219C82DCE00BE2932 /* WMJCheckOverGraphics.h */,
+				30B3F37319C82DCE00BE2932 /* WMJCheckOverGraphics.m */,
+				30B3F36719C82AAB00BE2932 /* images */,
 				30B3F33B19C8082500BE2932 /* Images.xcassets */,
 				30B3F33019C8082500BE2932 /* Supporting Files */,
 			);
@@ -142,6 +175,30 @@
 				30B3F34B19C8082500BE2932 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30B3F36619C8092E00BE2932 /* ACEDrawingView */ = {
+			isa = PBXGroup;
+			children = (
+				30B3F36019C8092200BE2932 /* ACEDrawingTools.h */,
+				30B3F36119C8092200BE2932 /* ACEDrawingTools.m */,
+				30B3F36219C8092200BE2932 /* ACEDrawingView.h */,
+				30B3F36319C8092200BE2932 /* ACEDrawingView.m */,
+			);
+			name = ACEDrawingView;
+			sourceTree = "<group>";
+		};
+		30B3F36719C82AAB00BE2932 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				300929E519EE62E90002FAE9 /* handExample@2x.png */,
+				30B3F36819C82ABC00BE2932 /* 六边形.png */,
+				30B3F36919C82ABC00BE2932 /* 三角形.png */,
+				30B3F36A19C82ABC00BE2932 /* 圆形.png */,
+				30B3F36B19C82ABC00BE2932 /* 长方形.png */,
+				30B3F36C19C82ABC00BE2932 /* 正方形.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +277,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				300929E619EE62E90002FAE9 /* handExample@2x.png in Resources */,
+				30B3F37119C82ABC00BE2932 /* 正方形.png in Resources */,
+				30B3F36E19C82ABC00BE2932 /* 三角形.png in Resources */,
+				30B3F36F19C82ABC00BE2932 /* 圆形.png in Resources */,
 				30B3F33419C8082500BE2932 /* InfoPlist.strings in Resources */,
 				30B3F33C19C8082500BE2932 /* Images.xcassets in Resources */,
+				30B3F36D19C82ABC00BE2932 /* 六边形.png in Resources */,
+				30B3F35F19C8091500BE2932 /* ACEViewController.xib in Resources */,
+				30B3F37019C82ABC00BE2932 /* 长方形.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +305,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				30B3F33619C8082500BE2932 /* main.m in Sources */,
+				30B3F36419C8092200BE2932 /* ACEDrawingTools.m in Sources */,
+				30B3F36519C8092200BE2932 /* ACEDrawingView.m in Sources */,
+				30B3F35E19C8091500BE2932 /* ACEViewController.m in Sources */,
+				30B3F37419C82DCE00BE2932 /* WMJCheckOverGraphics.m in Sources */,
 				30B3F33A19C8082500BE2932 /* WMJAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -348,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -363,7 +431,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "drawGraphics/drawGraphics-Prefix.pch";
 				INFOPLIST_FILE = "drawGraphics/drawGraphics-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -376,7 +446,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "drawGraphics/drawGraphics-Prefix.pch";
 				INFOPLIST_FILE = "drawGraphics/drawGraphics-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -440,6 +512,7 @@
 				30B3F35419C8082500BE2932 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30B3F35519C8082500BE2932 /* Build configuration list for PBXNativeTarget "drawGraphicsTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +521,7 @@
 				30B3F35719C8082500BE2932 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

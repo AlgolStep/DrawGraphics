@@ -7,6 +7,7 @@
 //
 
 #import "WMJAppDelegate.h"
+#import "ACEViewController.h"
 
 @implementation WMJAppDelegate
 
@@ -14,6 +15,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    ACEViewController *acViewController = [[ACEViewController alloc]initWithNibName:@"ACEViewController" bundle:nil];
+    self.window.rootViewController = acViewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
